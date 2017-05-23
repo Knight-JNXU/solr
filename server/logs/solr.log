@@ -1,0 +1,30 @@
+2017-05-22 02:20:44.594 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
+2017-05-22 02:20:45.004 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr? version 6.5.1
+2017-05-22 02:20:45.004 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-05-22 02:20:45.004 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Users\Jumbo\Desktop\solr-6.5.1\solr-6.5.1
+2017-05-22 02:20:45.046 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-05-22T02:20:45.013Z
+2017-05-22 02:20:45.047 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2017-05-22 02:20:45.062 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Users\Jumbo\Desktop\solr-6.5.1\solr-6.5.1\server\solr
+2017-05-22 02:20:45.068 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\Jumbo\Desktop\solr-6.5.1\solr-6.5.1\server\solr\solr.xml
+2017-05-22 02:20:45.424 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-05-22 02:20:45.569 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath C:\Users\Jumbo\Desktop\solr-6.5.1\solr-6.5.1\server\solr
+2017-05-22 02:20:45.641 INFO  (main) [   ] o.e.j.s.Server Started @1640ms
+2017-05-22 02:20:46.396 INFO  (qtp581374081-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=257
+2017-05-22 02:21:01.068 INFO  (qtp581374081-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1495419660864} status=0 QTime=1
+2017-05-22 02:21:01.094 INFO  (qtp581374081-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1495419660864} status=0 QTime=26
+2017-05-22 02:21:01.094 INFO  (qtp581374081-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1495419660864} status=0 QTime=22
+2017-05-22 02:21:06.649 INFO  (qtp581374081-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1495419660864} status=0 QTime=0
+2017-05-22 02:21:06.654 INFO  (qtp581374081-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={wt=json&_=1495419666644} status=0 QTime=0
+2017-05-22 02:21:06.668 INFO  (qtp581374081-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1495419660864} status=0 QTime=18
+2017-05-22 02:21:11.426 INFO  (qtp581374081-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1495419660864} status=0 QTime=0
+2017-05-22 02:21:11.450 INFO  (qtp581374081-32) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1495419660864} status=0 QTime=24
+2017-05-22 02:21:11.450 INFO  (qtp581374081-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1495419660864} status=0 QTime=22
+2017-05-22 02:21:32.997 INFO  (qtp581374081-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1495419692915} status=0 QTime=0
+2017-05-22 02:21:33.024 INFO  (qtp581374081-32) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1495419692915} status=0 QTime=24
+2017-05-22 02:21:33.024 INFO  (qtp581374081-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1495419692915} status=0 QTime=21
+2017-05-22 02:21:44.622 INFO  (qtp581374081-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1495419692915} status=0 QTime=0
+2017-05-22 02:21:44.625 INFO  (qtp581374081-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1495419692915} status=0 QTime=0
+2017-05-22 02:21:44.637 INFO  (qtp581374081-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1495419692915} status=0 QTime=14
+2017-05-22 02:21:47.056 INFO  (qtp581374081-32) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1495419692915} status=0 QTime=0
+2017-05-22 02:21:47.085 INFO  (qtp581374081-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1495419692915} status=0 QTime=24
+2017-05-22 02:21:47.085 INFO  (qtp581374081-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1495419692915} status=0 QTime=27

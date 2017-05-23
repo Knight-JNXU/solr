@@ -1,0 +1,17 @@
+<dataConfig>
+    <dataSource type="JdbcDataSource" 
+              driver="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://127.0.0.1:3306/db1" 
+              user="root" 
+              encoding="UTF-8"
+              password="4005"/>
+    <document>
+        <entity name="jynbook" processor="SqlEntityProcessor" pk="id"
+            query="select c_id,c_name,c_isbn from t_book">
+            <field name="id" column="c_id" />  
+            <field name="name" column="c_name" />  
+            <field name="isbn" column="c_isbn" />
+        </entity>
+    </document>
+</dataConfig>
+

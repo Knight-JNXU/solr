@@ -1,0 +1,354 @@
+INFO  - 2017-05-23 14:14:16.564; [   ] org.eclipse.jetty.util.log.Log; Logging initialized @390ms
+INFO  - 2017-05-23 14:14:16.884; [   ] org.eclipse.jetty.server.Server; jetty-9.3.14.v20161028
+INFO  - 2017-05-23 14:14:16.914; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor [file:///C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/server/contexts/] at interval 0
+INFO  - 2017-05-23 14:14:17.277; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2017-05-23 14:14:17.304; [   ] org.apache.solr.servlet.SolrDispatchFilter;  ___      _       Welcome to Apache Solr? version 6.5.1
+INFO  - 2017-05-23 14:14:17.304; [   ] org.apache.solr.servlet.SolrDispatchFilter; / __| ___| |_ _   Starting in standalone mode on port 8983
+INFO  - 2017-05-23 14:14:17.306; [   ] org.apache.solr.servlet.SolrDispatchFilter; \__ \/ _ \ | '_|  Install dir: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1
+INFO  - 2017-05-23 14:14:17.318; [   ] org.apache.solr.servlet.SolrDispatchFilter; |___/\___/_|_|    Start time: 2017-05-23T14:14:17.307Z
+INFO  - 2017-05-23 14:14:17.331; [   ] org.apache.solr.core.SolrResourceLoader; Using system property solr.solr.home: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr
+INFO  - 2017-05-23 14:14:17.336; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\solr.xml
+INFO  - 2017-05-23 14:14:17.643; [   ] org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+INFO  - 2017-05-23 14:14:17.790; [   ] org.apache.solr.core.CorePropertiesLocator; Found 7 core definitions underneath C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr
+INFO  - 2017-05-23 14:14:17.792; [   ] org.apache.solr.core.CorePropertiesLocator; Cores are: [db, mail, mydb, pgdb, rss, solr, tika]
+INFO  - 2017-05-23 14:14:17.801; [   x:mydb] org.apache.solr.core.SolrResourceLoader; [null] Added 3 libs to classloader, from paths: [/C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/example/example-DIH/solr/mydb/lib]
+INFO  - 2017-05-23 14:14:17.801; [   x:db] org.apache.solr.core.SolrResourceLoader; [null] Added 2 libs to classloader, from paths: [/C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/example/example-DIH/solr/db/lib]
+WARN  - 2017-05-23 14:14:17.848; [   x:mail] org.apache.solr.core.SolrConfig; Couldn't add files from C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\contrib\dataimporthandler\lib filtered by .*\.jar to classpath: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\contrib\dataimporthandler\lib
+INFO  - 2017-05-23 14:14:17.858; [   x:mail] org.apache.solr.core.SolrResourceLoader; [mail] Added 49 libs to classloader, from paths: [/C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/dataimporthandler-extras/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/extraction/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/langid/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/velocity/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/dist]
+INFO  - 2017-05-23 14:14:17.881; [   ] org.eclipse.jetty.server.handler.ContextHandler; Started o.e.j.w.WebAppContext@2781e022{/solr,file:///C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\server/solr-webapp/webapp}
+INFO  - 2017-05-23 14:14:17.900; [   ] org.eclipse.jetty.server.AbstractConnector; Started ServerConnector@303cf2ba{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+INFO  - 2017-05-23 14:14:17.901; [   ] org.eclipse.jetty.server.Server; Started @1729ms
+INFO  - 2017-05-23 14:14:17.943; [   x:db] org.apache.solr.core.SolrResourceLoader; [db] Added 46 libs to classloader, from paths: [/C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/extraction/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/langid/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/velocity/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/dist]
+WARN  - 2017-05-23 14:14:17.944; [   x:mydb] org.apache.solr.core.SolrConfig; Couldn't add files from D:\all\software\develop\Java\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\mydb\lib filtered by mysql-connector-java-5.1.4.jar to classpath: D:\all\software\develop\Java\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\mydb\lib
+INFO  - 2017-05-23 14:14:17.945; [   x:mydb] org.apache.solr.core.SolrResourceLoader; [mydb] Added 46 libs to classloader, from paths: [/C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/extraction/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/langid/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/velocity/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/dist]
+INFO  - 2017-05-23 14:14:17.950; [   x:mail] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-05-23 14:14:17.955; [   x:mail] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 6.5.1
+INFO  - 2017-05-23 14:14:17.992; [   x:db] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-05-23 14:14:17.996; [   x:db] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 6.5.1
+INFO  - 2017-05-23 14:14:17.999; [   x:mydb] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-05-23 14:14:18.020; [   x:mydb] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 6.5.1
+INFO  - 2017-05-23 14:14:18.144; [   x:mydb] org.apache.solr.schema.IndexSchema; [mydb] Schema name=example-DIH-db2
+INFO  - 2017-05-23 14:14:18.149; [   x:mail] org.apache.solr.schema.IndexSchema; [mail] Schema name=example-DIH-mail
+INFO  - 2017-05-23 14:14:18.154; [   x:db] org.apache.solr.schema.IndexSchema; [db] Schema name=example-DIH-db
+WARN  - 2017-05-23 14:14:18.233; [   x:db] org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.SynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+WARN  - 2017-05-23 14:14:18.246; [   x:mail] org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.WordDelimiterFilterFactory]. Please consult documentation how to replace it accordingly.
+INFO  - 2017-05-23 14:14:18.630; [   x:mail] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-mail/1.6 with uniqueid field messageId
+INFO  - 2017-05-23 14:14:18.631; [   x:db] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-db/1.6 with uniqueid field id
+INFO  - 2017-05-23 14:14:18.633; [   x:mydb] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-db2/1.6 with uniqueid field id
+INFO  - 2017-05-23 14:14:18.645; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=251
+INFO  - 2017-05-23 14:14:18.674; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=566
+INFO  - 2017-05-23 14:14:18.731; [   x:mydb] org.apache.solr.core.CoreContainer; Creating SolrCore 'mydb' using configuration from instancedir C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\mydb
+INFO  - 2017-05-23 14:14:18.750; [   x:mail] org.apache.solr.core.CoreContainer; Creating SolrCore 'mail' using configuration from instancedir C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\mail
+INFO  - 2017-05-23 14:14:18.770; [   x:mydb] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2017-05-23 14:14:18.773; [   x:mail] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2017-05-23 14:14:18.780; [   x:mydb] org.apache.solr.core.SolrCore; [[mydb] ] Opening new SolrCore at [C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\mydb], dataDir=[C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\mydb\data\]
+INFO  - 2017-05-23 14:14:18.781; [   x:mail] org.apache.solr.core.SolrCore; [[mail] ] Opening new SolrCore at [C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\mail], dataDir=[C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\mail\data\]
+INFO  - 2017-05-23 14:14:18.783; [   x:db] org.apache.solr.core.CoreContainer; Creating SolrCore 'db' using configuration from instancedir C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\db
+INFO  - 2017-05-23 14:14:18.783; [   x:db] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2017-05-23 14:14:18.784; [   x:db] org.apache.solr.core.SolrCore; [[db] ] Opening new SolrCore at [C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\db], dataDir=[C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\db\data\]
+INFO  - 2017-05-23 14:14:18.787; [   x:mydb] org.apache.solr.core.JmxMonitoredMap; JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@2d52216b
+INFO  - 2017-05-23 14:14:18.789; [   x:db] org.apache.solr.core.JmxMonitoredMap; JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@2d52216b
+INFO  - 2017-05-23 14:14:18.790; [   x:mail] org.apache.solr.core.JmxMonitoredMap; JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@2d52216b
+INFO  - 2017-05-23 14:14:18.887; [   x:mydb] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-05-23 14:14:18.887; [   x:mail] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-05-23 14:14:18.887; [   x:db] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-05-23 14:14:19.437; [   x:mydb] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2017-05-23 14:14:19.437; [   x:mail] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2017-05-23 14:14:19.437; [   x:db] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2017-05-23 14:14:19.438; [   x:db] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2017-05-23 14:14:19.437; [   x:mail] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2017-05-23 14:14:19.437; [   x:mydb] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2017-05-23 14:14:19.448; [   x:mail] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-05-23 14:14:19.449; [   x:mail] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-05-23 14:14:19.452; [   x:db] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-05-23 14:14:19.454; [   x:mydb] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-05-23 14:14:19.454; [   x:db] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-05-23 14:14:19.454; [   x:mydb] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-05-23 14:14:19.504; [   x:mail] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@25cd987e[mail] main]
+INFO  - 2017-05-23 14:14:19.513; [   x:mail] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\mail\conf
+INFO  - 2017-05-23 14:14:19.527; [   x:db] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@7bb1fc96[db] main]
+INFO  - 2017-05-23 14:14:19.528; [   x:mydb] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@3b3c21f8[mydb] main]
+INFO  - 2017-05-23 14:14:19.528; [   x:db] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\db\conf
+INFO  - 2017-05-23 14:14:19.529; [   x:mydb] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\mydb\conf
+INFO  - 2017-05-23 14:14:19.537; [   x:mail] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-05-23 14:14:19.537; [   x:mydb] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-05-23 14:14:19.537; [   x:db] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-05-23 14:14:19.548; [   x:mail] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-05-23 14:14:19.548; [   x:db] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-05-23 14:14:19.549; [   x:mydb] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-05-23 14:14:19.557; [   x:mydb] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2017-05-23 14:14:19.557; [   x:mail] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2017-05-23 14:14:19.558; [   x:db] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2017-05-23 14:14:19.562; [   x:mydb] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:19.571; [   x:mail] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:19.573; [   x:db] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:19.600; [   x:mydb] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:19.601; [   x:mydb] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@1bac8409, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2017-05-23 14:14:19.603; [   x:mydb] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\mydb\conf\elevate.xml
+INFO  - 2017-05-23 14:14:19.615; [   x:mail] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:19.616; [   x:mail] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@70294f72, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2017-05-23 14:14:19.615; [   x:db] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:19.616; [   x:db] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@66da513, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2017-05-23 14:14:19.617; [   x:db] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\db\conf\elevate.xml
+INFO  - 2017-05-23 14:14:19.616; [   x:mail] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\mail\conf\elevate.xml
+INFO  - 2017-05-23 14:14:19.620; [   x:mydb] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-05-23 14:14:19.621; [   x:db] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-05-23 14:14:19.626; [   x:mail] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-05-23 14:14:19.674; [   x:mydb] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@3b3c21f8[mydb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(6.5.1):C2) Uninverting(_7(6.5.1):C1)))}
+INFO  - 2017-05-23 14:14:19.675; [   x:db] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@7bb1fc96[db] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.1):C16)))}
+INFO  - 2017-05-23 14:14:19.676; [   x:mail] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@25cd987e[mail] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-05-23 14:14:19.683; [   x:mail] org.apache.solr.update.UpdateLog; Could not find max version in index or recent updates, using new clock 1568196641090961408
+INFO  - 2017-05-23 14:14:19.697; [   ] org.apache.solr.core.SolrResourceLoader; [null] Added 2 libs to classloader, from paths: [/C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/example/example-DIH/solr/pgdb/lib]
+INFO  - 2017-05-23 14:14:19.741; [   ] org.apache.solr.core.SolrResourceLoader; [rss] Added 46 libs to classloader, from paths: [/C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/extraction/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/langid/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/velocity/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/dist]
+INFO  - 2017-05-23 14:14:19.750; [   ] org.apache.solr.core.SolrResourceLoader; [solr] Added 46 libs to classloader, from paths: [/C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/extraction/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/langid/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/velocity/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/dist]
+INFO  - 2017-05-23 14:14:19.760; [   x:mail] org.apache.solr.core.SolrCore; [mail]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=82
+INFO  - 2017-05-23 14:14:19.760; [   x:mydb] org.apache.solr.core.SolrCore; [mydb]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=83
+INFO  - 2017-05-23 14:14:19.761; [   x:mydb] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-05-23 14:14:19.761; [   x:mydb] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-05-23 14:14:19.761; [   x:mydb] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-05-23 14:14:19.761; [   x:mydb] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2017-05-23 14:14:19.761; [   x:mydb] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2017-05-23 14:14:19.760; [   x:mail] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-05-23 14:14:19.765; [   x:mail] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-05-23 14:14:19.765; [   x:mail] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-05-23 14:14:19.765; [   x:mail] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2017-05-23 14:14:19.766; [   x:mail] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2017-05-23 14:14:19.765; [   x:db] org.apache.solr.core.SolrCore; [db]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=3 status=0 QTime=88
+INFO  - 2017-05-23 14:14:19.779; [   ] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-05-23 14:14:19.783; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 6.5.1
+INFO  - 2017-05-23 14:14:19.790; [   x:db] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-05-23 14:14:19.790; [   x:db] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-05-23 14:14:19.791; [   x:db] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-05-23 14:14:19.791; [   x:db] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2017-05-23 14:14:19.791; [   x:db] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2017-05-23 14:14:19.822; [   ] org.apache.solr.core.SolrResourceLoader; [pgdb] Added 47 libs to classloader, from paths: [/C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/extraction/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/langid/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/velocity/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/dist, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/example/example-DIH/solr/pgdb/lib]
+INFO  - 2017-05-23 14:14:19.841; [   ] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-05-23 14:14:19.842; [   ] org.apache.solr.schema.IndexSchema; [rss] Schema name=example-DIH-rss
+INFO  - 2017-05-23 14:14:19.843; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 6.5.1
+INFO  - 2017-05-23 14:14:19.896; [   ] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-05-23 14:14:19.898; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 6.5.1
+INFO  - 2017-05-23 14:14:19.900; [   x:mail] org.apache.solr.core.SolrCore; [mail] Registered new searcher Searcher@25cd987e[mail] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-05-23 14:14:19.904; [   x:mydb] org.apache.solr.core.SolrCore; [mydb] Registered new searcher Searcher@3b3c21f8[mydb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(6.5.1):C2) Uninverting(_7(6.5.1):C1)))}
+INFO  - 2017-05-23 14:14:19.920; [   ] org.apache.solr.schema.IndexSchema; [solr] Schema name=example-DIH-solr
+INFO  - 2017-05-23 14:14:19.954; [   x:db] org.apache.solr.core.SolrCore; [db] Registered new searcher Searcher@7bb1fc96[db] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.1):C16)))}
+INFO  - 2017-05-23 14:14:19.954; [   ] org.apache.solr.schema.IndexSchema; [pgdb] Schema name=example-DIH-db2
+INFO  - 2017-05-23 14:14:19.958; [   ] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-db2/1.6 with uniqueid field id
+INFO  - 2017-05-23 14:14:19.960; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'pgdb' using configuration from instancedir C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\pgdb
+INFO  - 2017-05-23 14:14:19.960; [   ] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2017-05-23 14:14:19.961; [   ] org.apache.solr.core.SolrCore; [[pgdb] ] Opening new SolrCore at [C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\pgdb], dataDir=[C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\pgdb\data\]
+INFO  - 2017-05-23 14:14:19.961; [   ] org.apache.solr.core.JmxMonitoredMap; JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@2d52216b
+INFO  - 2017-05-23 14:14:19.971; [   ] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-05-23 14:14:20.089; [   ] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2017-05-23 14:14:20.089; [   ] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2017-05-23 14:14:20.095; [   ] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-05-23 14:14:20.095; [   ] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-05-23 14:14:20.164; [   ] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@791e8f3f[pgdb] main]
+INFO  - 2017-05-23 14:14:20.165; [   ] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\pgdb\conf
+INFO  - 2017-05-23 14:14:20.166; [   ] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-05-23 14:14:20.167; [   ] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-05-23 14:14:20.168; [   ] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2017-05-23 14:14:20.172; [   ] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:20.172; [   ] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:20.173; [   ] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@372b97b4, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2017-05-23 14:14:20.173; [   ] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\pgdb\conf\elevate.xml
+INFO  - 2017-05-23 14:14:20.180; [   ] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-05-23 14:14:20.190; [   ] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@791e8f3f[pgdb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_p(6.5.1):C2)))}
+ERROR - 2017-05-23 14:14:20.192; [   ] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Invalid Number: static
+	at org.apache.solr.schema.TrieField.readableToIndexed(TrieField.java:455)
+	at org.apache.solr.schema.FieldType.getFieldQuery(FieldType.java:776)
+	at org.apache.solr.schema.TrieField.getFieldQuery(TrieField.java:414)
+	at org.apache.solr.parser.SolrQueryParserBase.rawToNormal(SolrQueryParserBase.java:906)
+	at org.apache.solr.parser.SolrQueryParserBase.getBooleanQuery(SolrQueryParserBase.java:618)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:238)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:211)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:53)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:168)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:173)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2440)
+	at org.apache.solr.core.QuerySenderListener.newSearcher(QuerySenderListener.java:72)
+	at org.apache.solr.core.SolrCore.lambda$getSearcher$13(SolrCore.java:2212)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:229)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2017-05-23 14:14:20.193; [   ] org.apache.solr.core.SolrCore; [pgdb]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} status=400 QTime=2
+INFO  - 2017-05-23 14:14:20.193; [   ] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-05-23 14:14:20.193; [   ] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-05-23 14:14:20.193; [   ] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-05-23 14:14:20.193; [   ] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2017-05-23 14:14:20.194; [   ] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2017-05-23 14:14:20.204; [   ] org.apache.solr.core.SolrCore; [pgdb] Registered new searcher Searcher@791e8f3f[pgdb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_p(6.5.1):C2)))}
+WARN  - 2017-05-23 14:14:20.209; [   ] org.apache.solr.core.SolrConfig; Couldn't add files from C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\contrib\dataimporthandler\lib filtered by .*\.jar to classpath: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\contrib\dataimporthandler\lib
+INFO  - 2017-05-23 14:14:20.218; [   ] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-rss/1.6 with uniqueid field link
+INFO  - 2017-05-23 14:14:20.220; [   ] org.apache.solr.core.SolrResourceLoader; [tika] Added 46 libs to classloader, from paths: [/C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/extraction/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/langid/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/contrib/velocity/lib, /C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/dist]
+INFO  - 2017-05-23 14:14:20.252; [   ] org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2017-05-23 14:14:20.255; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 6.5.1
+INFO  - 2017-05-23 14:14:20.288; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'rss' using configuration from instancedir C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\rss
+INFO  - 2017-05-23 14:14:20.288; [   ] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2017-05-23 14:14:20.289; [   ] org.apache.solr.core.SolrCore; [[rss] ] Opening new SolrCore at [C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\rss], dataDir=[C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\rss\data\]
+INFO  - 2017-05-23 14:14:20.289; [   ] org.apache.solr.core.JmxMonitoredMap; JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@2d52216b
+INFO  - 2017-05-23 14:14:20.298; [   ] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-05-23 14:14:20.316; [   ] org.apache.solr.schema.IndexSchema; [tika] Schema name=example-DIH-tika
+INFO  - 2017-05-23 14:14:20.329; [   ] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-solr/1.6 with uniqueid field id
+INFO  - 2017-05-23 14:14:20.379; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'solr' using configuration from instancedir C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\solr
+INFO  - 2017-05-23 14:14:20.380; [   ] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2017-05-23 14:14:20.380; [   ] org.apache.solr.core.SolrCore; [[solr] ] Opening new SolrCore at [C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\solr], dataDir=[C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\solr\data\]
+INFO  - 2017-05-23 14:14:20.381; [   ] org.apache.solr.core.JmxMonitoredMap; JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@2d52216b
+INFO  - 2017-05-23 14:14:20.382; [   ] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2017-05-23 14:14:20.382; [   ] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2017-05-23 14:14:20.384; [   ] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-05-23 14:14:20.384; [   ] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-05-23 14:14:20.389; [   ] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@210eca80[rss] main]
+INFO  - 2017-05-23 14:14:20.390; [   ] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\rss\conf
+INFO  - 2017-05-23 14:14:20.391; [   ] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-05-23 14:14:20.391; [   ] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-05-23 14:14:20.391; [   ] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-05-23 14:14:20.392; [   ] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2017-05-23 14:14:20.392; [   ] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:20.392; [   ] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:20.392; [   ] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@5e824ae1, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2017-05-23 14:14:20.393; [   ] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\rss\conf\elevate.xml
+INFO  - 2017-05-23 14:14:20.400; [   ] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-05-23 14:14:20.415; [   ] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@210eca80[rss] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-05-23 14:14:20.417; [   ] org.apache.solr.core.SolrCore; [rss]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=1
+INFO  - 2017-05-23 14:14:20.417; [   ] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-05-23 14:14:20.418; [   ] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-05-23 14:14:20.418; [   ] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-05-23 14:14:20.418; [   ] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2017-05-23 14:14:20.418; [   ] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2017-05-23 14:14:20.418; [   ] org.apache.solr.update.UpdateLog; Could not find max version in index or recent updates, using new clock 1568196641861664768
+INFO  - 2017-05-23 14:14:20.437; [   ] org.apache.solr.core.SolrCore; [rss] Registered new searcher Searcher@210eca80[rss] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-05-23 14:14:20.494; [   ] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2017-05-23 14:14:20.495; [   ] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2017-05-23 14:14:20.496; [   ] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-05-23 14:14:20.496; [   ] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+WARN  - 2017-05-23 14:14:20.497; [   ] org.apache.solr.schema.IndexSchema; no uniqueKey specified in schema.
+INFO  - 2017-05-23 14:14:20.499; [   ] org.apache.solr.schema.IndexSchema; Loaded schema example-DIH-tika/1.6 with uniqueid field null
+INFO  - 2017-05-23 14:14:20.499; [   ] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@8f85306[solr] main]
+INFO  - 2017-05-23 14:14:20.499; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'tika' using configuration from instancedir C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\tika
+INFO  - 2017-05-23 14:14:20.500; [   ] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2017-05-23 14:14:20.500; [   ] org.apache.solr.core.SolrCore; [[tika] ] Opening new SolrCore at [C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\tika], dataDir=[C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\tika\data\]
+INFO  - 2017-05-23 14:14:20.500; [   ] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\solr\conf
+INFO  - 2017-05-23 14:14:20.500; [   ] org.apache.solr.core.JmxMonitoredMap; JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@2d52216b
+INFO  - 2017-05-23 14:14:20.500; [   ] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-05-23 14:14:20.500; [   ] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-05-23 14:14:20.501; [   ] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2017-05-23 14:14:20.501; [   ] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:20.501; [   ] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:20.501; [   ] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@7dd6d516, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2017-05-23 14:14:20.501; [   ] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\solr\conf\elevate.xml
+INFO  - 2017-05-23 14:14:20.505; [   ] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-05-23 14:14:20.506; [   ] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2017-05-23 14:14:20.510; [   ] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@8f85306[solr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-05-23 14:14:20.511; [   ] org.apache.solr.core.SolrCore; [solr]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=0
+INFO  - 2017-05-23 14:14:20.511; [   ] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-05-23 14:14:20.512; [   ] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-05-23 14:14:20.512; [   ] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-05-23 14:14:20.512; [   ] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2017-05-23 14:14:20.512; [   ] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2017-05-23 14:14:20.512; [   ] org.apache.solr.update.UpdateLog; Could not find max version in index or recent updates, using new clock 1568196641960230912
+INFO  - 2017-05-23 14:14:20.519; [   ] org.apache.solr.core.SolrCore; [solr] Registered new searcher Searcher@8f85306[solr] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-05-23 14:14:20.592; [   ] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2017-05-23 14:14:20.592; [   ] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2017-05-23 14:14:20.594; [   ] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@2c7ad7e5[tika] main]
+INFO  - 2017-05-23 14:14:20.595; [   ] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\example\example-DIH\solr\tika\conf
+INFO  - 2017-05-23 14:14:20.596; [   ] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2017-05-23 14:14:20.596; [   ] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2017-05-23 14:14:20.596; [   ] org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2017-05-23 14:14:20.597; [   ] org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:20.597; [   ] org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2017-05-23 14:14:20.597; [   ] org.apache.solr.handler.component.SuggestComponent; Registering searcher listener for suggester: mySuggester - SuggesterListener [core=org.apache.solr.core.SolrCore@6902a485, suggester=SolrSuggester [ name=mySuggester, sourceLocation=null, storeDir=, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, sizeInBytes=0 ], buildOnCommit=false, buildOnOptimize=false, buildOnStartup=true, isCoreReload=false]
+INFO  - 2017-05-23 14:14:20.598; [   ] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2017-05-23 14:14:20.604; [   ] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@2c7ad7e5[tika] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-05-23 14:14:20.606; [   ] org.apache.solr.core.SolrCore; [tika]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=1
+INFO  - 2017-05-23 14:14:20.606; [   ] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-05-23 14:14:20.606; [   ] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2017-05-23 14:14:20.606; [   ] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2017-05-23 14:14:20.607; [   ] org.apache.solr.handler.component.SuggestComponent$SuggesterListener; buildOnStartup: mySuggester
+INFO  - 2017-05-23 14:14:20.607; [   ] org.apache.solr.spelling.suggest.SolrSuggester; SolrSuggester.build(mySuggester)
+INFO  - 2017-05-23 14:14:20.614; [   ] org.apache.solr.core.SolrCore; [tika] Registered new searcher Searcher@2c7ad7e5[tika] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2017-05-23 14:14:22.341; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1495548862211} status=0 QTime=1
+INFO  - 2017-05-23 14:14:22.371; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1495548862212} status=0 QTime=31
+INFO  - 2017-05-23 14:14:25.743; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1495548862211} status=0 QTime=0
+INFO  - 2017-05-23 14:14:25.749; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1495548865730} status=0 QTime=4
+INFO  - 2017-05-23 14:14:25.794; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1495548862212} status=0 QTime=49
+INFO  - 2017-05-23 14:14:25.804; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1495548862211} status=0 QTime=0
+INFO  - 2017-05-23 14:14:25.806; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1495548865730} status=0 QTime=0
+INFO  - 2017-05-23 14:14:25.813; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1495548865730} status=0 QTime=5
+INFO  - 2017-05-23 14:14:25.838; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1495548862212} status=0 QTime=33
+INFO  - 2017-05-23 14:14:25.840; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1495548865730} status=0 QTime=0
+INFO  - 2017-05-23 14:14:27.338; [   x:pgdb] org.apache.solr.handler.dataimport.DataImporter; Loading DIH Configuration: db-data-config.xml
+INFO  - 2017-05-23 14:14:27.345; [   x:pgdb] org.apache.solr.handler.dataimport.DataImporter; Data Configuration loaded successfully
+INFO  - 2017-05-23 14:14:27.351; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/dataimport params={core=pgdb&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1495548865730&verbose=false} status=0 QTime=14
+INFO  - 2017-05-23 14:14:27.351; [   x:pgdb] org.apache.solr.handler.dataimport.DataImporter; Starting Full Import
+INFO  - 2017-05-23 14:14:27.356; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1495548865730} status=0 QTime=0
+INFO  - 2017-05-23 14:14:27.366; [   x:pgdb] org.apache.solr.handler.dataimport.SimplePropertiesWriter; Read dataimport.properties
+INFO  - 2017-05-23 14:14:27.411; [   x:pgdb] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@1fd71548[pgdb] realtime]
+INFO  - 2017-05-23 14:14:27.435; [   x:pgdb] org.apache.solr.handler.dataimport.JdbcDataSource$1; Creating a connection for entity pgtpdItemIdCategoryId with URL: jdbc:postgresql://127.0.0.1/homework3
+INFO  - 2017-05-23 14:14:27.498; [   x:pgdb] org.apache.solr.handler.dataimport.JdbcDataSource$1; Time taken for getConnection(): 62
+INFO  - 2017-05-23 14:14:27.545; [   x:pgdb] org.apache.solr.handler.dataimport.DocBuilder; Import completed successfully
+INFO  - 2017-05-23 14:14:27.545; [   x:pgdb] org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2017-05-23 14:14:27.546; [   x:pgdb] org.apache.solr.update.SolrIndexWriter; Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@210fcae7
+INFO  - 2017-05-23 14:14:27.606; [   x:pgdb] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@66178e58[pgdb] main]
+INFO  - 2017-05-23 14:14:27.608; [   x:pgdb] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@66178e58[pgdb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_q(6.5.1):C2)))}
+INFO  - 2017-05-23 14:14:27.608; [   x:pgdb] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-05-23 14:14:27.609; [   x:pgdb] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2017-05-23 14:14:27.610; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb] Registered new searcher Searcher@66178e58[pgdb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_q(6.5.1):C2)))}
+INFO  - 2017-05-23 14:14:27.614; [   x:pgdb] org.apache.solr.handler.dataimport.SimplePropertiesWriter; Read dataimport.properties
+INFO  - 2017-05-23 14:14:27.615; [   x:pgdb] org.apache.solr.handler.dataimport.SimplePropertiesWriter; Wrote last indexed time to dataimport.properties
+INFO  - 2017-05-23 14:14:27.619; [   x:pgdb] org.apache.solr.handler.dataimport.DocBuilder; Time taken = 0:0:0.251
+INFO  - 2017-05-23 14:14:27.620; [   x:pgdb] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [pgdb]  webapp=/solr path=/dataimport params={core=pgdb&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1495548865730&verbose=false} status=0 QTime=14{deleteByQuery=*:* (-1568196649174433792),add=[1 (1568196649310748672), 2 (1568196649333817344)],commit=} 0 282
+INFO  - 2017-05-23 14:14:28.627; [   x:pgdb] org.apache.solr.handler.dataimport.DataImporter; Loading DIH Configuration: db-data-config.xml
+INFO  - 2017-05-23 14:14:28.629; [   x:pgdb] org.apache.solr.handler.dataimport.DataImporter; Data Configuration loaded successfully
+INFO  - 2017-05-23 14:14:28.629; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=reload-config&_=1495548865730} status=0 QTime=3
+INFO  - 2017-05-23 14:14:28.637; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1495548865730} status=0 QTime=0
+INFO  - 2017-05-23 14:14:28.638; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1495548865730} status=0 QTime=0
+INFO  - 2017-05-23 14:14:28.648; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1495548865730} status=0 QTime=0
+INFO  - 2017-05-23 14:14:29.992; [   x:pgdb] org.apache.solr.handler.dataimport.DataImporter; Loading DIH Configuration: db-data-config.xml
+INFO  - 2017-05-23 14:14:29.993; [   x:pgdb] org.apache.solr.handler.dataimport.DataImporter; Data Configuration loaded successfully
+INFO  - 2017-05-23 14:14:29.994; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/dataimport params={core=pgdb&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1495548865730&verbose=false} status=0 QTime=2
+INFO  - 2017-05-23 14:14:29.994; [   x:pgdb] org.apache.solr.handler.dataimport.DataImporter; Starting Full Import
+INFO  - 2017-05-23 14:14:30.001; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1495548865730} status=0 QTime=0
+INFO  - 2017-05-23 14:14:30.002; [   x:pgdb] org.apache.solr.handler.dataimport.SimplePropertiesWriter; Read dataimport.properties
+INFO  - 2017-05-23 14:14:30.010; [   x:pgdb] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@5a4a2630[pgdb] realtime]
+INFO  - 2017-05-23 14:14:30.014; [   x:pgdb] org.apache.solr.handler.dataimport.JdbcDataSource$1; Creating a connection for entity pgtpdItemIdCategoryId with URL: jdbc:postgresql://127.0.0.1/homework3
+INFO  - 2017-05-23 14:14:30.043; [   x:pgdb] org.apache.solr.handler.dataimport.JdbcDataSource$1; Time taken for getConnection(): 28
+INFO  - 2017-05-23 14:14:30.045; [   x:pgdb] org.apache.solr.handler.dataimport.DocBuilder; Import completed successfully
+INFO  - 2017-05-23 14:14:30.046; [   x:pgdb] org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2017-05-23 14:14:30.046; [   x:pgdb] org.apache.solr.update.SolrIndexWriter; Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@210fcae7
+INFO  - 2017-05-23 14:14:30.101; [   x:pgdb] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@1d86180a[pgdb] main]
+INFO  - 2017-05-23 14:14:30.101; [   x:pgdb] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@1d86180a[pgdb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_r(6.5.1):C2)))}
+INFO  - 2017-05-23 14:14:30.101; [   x:pgdb] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2017-05-23 14:14:30.101; [   x:pgdb] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2017-05-23 14:14:30.102; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb] Registered new searcher Searcher@1d86180a[pgdb] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_r(6.5.1):C2)))}
+INFO  - 2017-05-23 14:14:30.105; [   x:pgdb] org.apache.solr.handler.dataimport.SimplePropertiesWriter; Read dataimport.properties
+INFO  - 2017-05-23 14:14:30.106; [   x:pgdb] org.apache.solr.handler.dataimport.SimplePropertiesWriter; Wrote last indexed time to dataimport.properties
+INFO  - 2017-05-23 14:14:30.108; [   x:pgdb] org.apache.solr.handler.dataimport.DocBuilder; Time taken = 0:0:0.106
+INFO  - 2017-05-23 14:14:30.109; [   x:pgdb] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [pgdb]  webapp=/solr path=/dataimport params={core=pgdb&optimize=false&indent=on&commit=true&name=dataimport&clean=true&wt=json&command=full-import&_=1495548865730&verbose=false} status=0 QTime=2{deleteByQuery=*:* (-1568196651917508608),add=[1 (1568196651955257344), 2 (1568196651956305920)],commit=} 0 117
+INFO  - 2017-05-23 14:14:31.033; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1495548865730} status=0 QTime=0
+INFO  - 2017-05-23 14:14:34.796; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1495548862211} status=0 QTime=0
+INFO  - 2017-05-23 14:14:34.827; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1495548862212} status=0 QTime=31
+INFO  - 2017-05-23 14:14:35.856; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  webapp=/solr path=/select params={q=*:*&indent=on&wt=json&_=1495548862306} hits=2 status=0 QTime=0
+INFO  - 2017-05-23 14:21:47.442; [   ] org.eclipse.jetty.server.AbstractConnector; Stopped ServerConnector@303cf2ba{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+INFO  - 2017-05-23 14:21:47.443; [   ] org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=796667727
+INFO  - 2017-05-23 14:21:47.444; [   x:db] org.apache.solr.core.SolrCore; [db]  CLOSING SolrCore org.apache.solr.core.SolrCore@66da513
+INFO  - 2017-05-23 14:21:47.444; [   x:rss] org.apache.solr.core.SolrCore; [rss]  CLOSING SolrCore org.apache.solr.core.SolrCore@5e824ae1
+INFO  - 2017-05-23 14:21:47.444; [   x:pgdb] org.apache.solr.core.SolrCore; [pgdb]  CLOSING SolrCore org.apache.solr.core.SolrCore@372b97b4
+INFO  - 2017-05-23 14:21:47.444; [   x:mail] org.apache.solr.core.SolrCore; [mail]  CLOSING SolrCore org.apache.solr.core.SolrCore@70294f72
+INFO  - 2017-05-23 14:21:47.444; [   x:mydb] org.apache.solr.core.SolrCore; [mydb]  CLOSING SolrCore org.apache.solr.core.SolrCore@1bac8409
+INFO  - 2017-05-23 14:21:47.445; [   x:tika] org.apache.solr.core.SolrCore; [tika]  CLOSING SolrCore org.apache.solr.core.SolrCore@6902a485
+INFO  - 2017-05-23 14:21:47.445; [   x:solr] org.apache.solr.core.SolrCore; [solr]  CLOSING SolrCore org.apache.solr.core.SolrCore@7dd6d516
+INFO  - 2017-05-23 14:21:47.687; [   x:tika] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for: solr.core.tika
+INFO  - 2017-05-23 14:21:47.695; [   x:solr] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for: solr.core.solr
+INFO  - 2017-05-23 14:21:47.695; [   x:mail] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for: solr.core.mail
+INFO  - 2017-05-23 14:21:47.698; [   x:rss] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for: solr.core.rss
+INFO  - 2017-05-23 14:21:47.698; [   x:mydb] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for: solr.core.mydb
+INFO  - 2017-05-23 14:21:47.698; [   x:db] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for: solr.core.db
+INFO  - 2017-05-23 14:21:47.699; [   x:pgdb] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for: solr.core.pgdb
+INFO  - 2017-05-23 14:21:47.700; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for: solr.node
+INFO  - 2017-05-23 14:21:47.704; [   ] org.eclipse.jetty.server.handler.ContextHandler; Stopped o.e.j.w.WebAppContext@2781e022{/solr,null,UNAVAILABLE}{C:\Users\hasee\Desktop\solr-6.5.1\solr-6.5.1\server/solr-webapp/webapp}

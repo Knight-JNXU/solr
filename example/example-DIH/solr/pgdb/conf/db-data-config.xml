@@ -1,0 +1,73 @@
+<dataConfig>
+    <dataSource type="JdbcDataSource" 
+              driver="org.postgresql.Driver"
+              url="jdbc:postgresql://127.0.0.1/homework3" 
+              user="postgres" 
+              encoding="UTF-8"
+              password="4005"/>
+    <document>
+		<!--
+        <entity name="pgtpditem" processor="SqlEntityProcessor" pk="id"
+            query="select id, code, create_time, delist_time, industry_id, isaddtag, isaddcategory, lifecycle, list_time, modify_time, pic_url, shop_id, template_id, type, version from t_pd_item">
+            <field name="id" column="id" />  
+            <field name="code" column="code" />  
+            <field name="create_time" column="create_time" />
+			<field name="delist_time" column="delist_time" />
+			<field name="industry_id" column="industry_id" />
+			<field name="isaddtag" column="isaddtag" />
+			<field name="isaddcategory" column="isaddcategory" />
+			<field name="lifecycle" column="lifecycle" />
+			<field name="list_time" column="list_time" />
+			<field name="modify_time" column="modify_time" />
+			<field name="pic_url" column="pic_url" />
+			<field name="shop_id" column="shop_id" />
+			<field name="template_id" column="template_id" />
+			<field name="type" column="type" />
+			<field name="version" column="version" />
+        </entity>
+		-->
+		<!--
+		<entity name="pgtpditem" processor="SqlEntityProcessor" pk="id"
+            query="
+			select 
+				t_pd_item.id,
+				t_pd_category.name
+			from
+				t_pd_item,
+				t_pd_category,
+				t_pd_item_category
+			where
+				t_pd_item_category.item_id=t_pd_item.id
+				and t_pd_item_category.category_id=t_pd_category.id
+		">
+		-->
+		<!--
+		<entity name="pgtpditem" processor="SqlEntityProcessor" pk="id"
+            query="select t_pd_item.id,t_pd_category.name from t_pd_item,t_pd_category,t_pd_item_category where t_pd_item_category.item_id=t_pd_item.idand t_pd_item_category.category_id=t_pd_category.id">
+            <field name="id" column="t_pd_item.id"/>
+			<field name="name" column="t_pd_category.name"/>
+			-->
+			<!--
+            <field name="code" column="code" />  
+			<field name="industry_id" column="industry_id" />
+			<field name="isaddtag" column="isaddtag" />
+			<field name="isaddcategory" column="isaddcategory" />
+			<field name="lifecycle" column="lifecycle" />
+			
+			<field name="pic_url" column="pic_url" />
+			<field name="template_id" column="template_id" />
+			
+			<field name="shop_id" column="shop_id" />
+			<field name="type" column="type" />
+			<field name="version" column="version" />
+			-->
+			<!--分类-->
+			<entity name="pgtpdItemIdCategoryId" processor="SqlEntityProcessor" pk="id"
+			query="select id, item_id, category_id from t_pd_item_category">
+				<field name="id" column="id"/>
+				<field name="item_id" column="item_id"/>
+				<field name="category_id" column="category_id"/>
+			</entity>
+    </document>
+</dataConfig>
+
