@@ -1,0 +1,21 @@
+<dataConfig>
+    <dataSource type="JdbcDataSource" 
+              driver="org.postgresql.Driver"
+              url="jdbc:postgresql://127.0.0.1/solrdb" 
+              user="postgres" 
+              encoding="UTF-8"
+              password="4005"/>
+    <document>
+		<!--分类-->
+		<entity name="tItemIdCategory" pk="id"
+		query="select id, item_id, category_id from t_item_category">
+			<field name="id" column="id"/>
+			<field name="item_id" column="item_id"/>
+			<field name="category_id" column="category_id"/>
+			<entity name="categoryName" query="select id, name from t_category where id='${tItemIdCategory.category_id}'">
+				<field name="category_name" column="name"/>
+			</entity>
+		</entity>
+    </document>
+</dataConfig>
+
