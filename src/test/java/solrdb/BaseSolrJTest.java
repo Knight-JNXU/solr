@@ -42,7 +42,7 @@ public class BaseSolrJTest{
             QueryResponse queryResponse = solrClient.query(solrQuery);
             SolrDocumentList solrDocumentList = queryResponse.getResults();
             for(SolrDocument solrDocument : solrDocumentList){
-                LOGGER.info(solrDocument.toString());
+                LOGGER.debug(solrDocument.toString());
             }
         }catch (Exception e){
             e.printStackTrace();
@@ -50,5 +50,26 @@ public class BaseSolrJTest{
         }
         
     }
+    
+    @Test
+    public void queryQ(){
+        try{
+            SolrClient solrClient = getSolrClientInstance();
+            SolrQuery solrQuery = new SolrQuery();
+            solrQuery.setQuery("*:*");
+            solrQuery.add("item_name", "AZTEC");
+            QueryResponse queryResponse = solrClient.query(solrQuery);
+            SolrDocumentList solrDocumentList = queryResponse.getResults();
+            for(SolrDocument solrDocument : solrDocumentList){
+                LOGGER.debug(solrDocument.toString());
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+            LOGGER.error(e.toString());
+        }
+        
+    }
+    
+    
     
 }
