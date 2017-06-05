@@ -83,7 +83,10 @@
   <lib dir="${solr.install.dir:../../../..}/contrib/velocity/lib" regex=".*\.jar" />
   <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-velocity-\d.*\.jar" />
   
-  <lib dir="C:/Users/hasee/Desktop/solr-6.5.1/solr-6.5.1/example/example-DIH/solr/pgdb/lib/" regex="postgresql-9.2-1002-jdbc4.jar"/>
+  <!--
+  <lib dir="D:/all/software/develop/Java/solr-6.5.1/solr-6.5.1/example/example-DIH/solr/pgdb/lib/" regex="postgresql-9.2-1002-jdbc4.jar"/>
+-->
+	<lib dir="D:/all/software/develop/Java/solr-6.5.1/solr-6.5.1/example/example-DIH/solr/pgdb/lib/" regex="postgresql-42.1.1.jre7.jar"/>
 
   <!-- an exact 'path' can be used instead of a 'dir' to specify a 
        specific jar file.  This will cause a serious error to be logged 
