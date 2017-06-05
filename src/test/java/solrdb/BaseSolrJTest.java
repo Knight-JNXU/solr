@@ -21,8 +21,8 @@ public class BaseSolrJTest{
     
     private final Logger LOGGER = org.apache.log4j.Logger.getLogger(this.getClass());
     
-    private final static String HOST_URL = "http://localhost:8983/solr";
-    private final static String CORE = "pgdb";
+    private final String HOST_URL = "http://localhost:8983/solr";
+    private final String CORE = "pgdb";
     
     private SolrClient getSolrClientInstance(){
         return new HttpSolrClient.Builder(HOST_URL + "/" + CORE).build();
@@ -51,20 +51,4 @@ public class BaseSolrJTest{
         
     }
     
-    public static void main(String[] args){
-        System.out.println("hello world");
-        try{
-            SolrClient solrClient = new HttpSolrClient.Builder(HOST_URL + "/" + CORE).build();
-            SolrQuery solrQuery = new SolrQuery();
-            solrQuery.setQuery("*:*");
-            QueryResponse queryResponse = solrClient.query(solrQuery);
-            SolrDocumentList solrDocumentList = queryResponse.getResults();
-            for(SolrDocument solrDocument : solrDocumentList){
-//                LOGGER.info(solrDocument.toString());
-            }
-        }catch (Exception e){
-            e.printStackTrace();
-//            LOGGER.error(e.toString());
-        }
-    }
 }
