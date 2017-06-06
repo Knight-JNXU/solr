@@ -420,10 +420,11 @@
 		default:字段的默认值
 	-->
 	<field name="id" type="long" multiValued="false" indexed="true" required="true" stored="true"/>
-	<field name="item_id" type="long" multiValued="true" indexed="true" required="false" stored="true"/>
+	<field name="item_id" type="long" multiValued="false" indexed="true" required="false" stored="true"/>
 	<field name="category_id" type="long" multiValued="true" indexed="true" required="false" stored="true"/>
 	<field name="category_name" type="string" multiValued="true" indexed="true" required="false" stored="true"/>
 	<field name="item_name" type="string" multiValued="true" indexed="true" required="false" stored="true"/>
+	<field name="item_price" type="tfloat" multiValued="false" indexed="true" required="false" stored="true"/>
 	<field name="_version_" type="long" indexed="true" stored="true"/>
 	
 </schema>

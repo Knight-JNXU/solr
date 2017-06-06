@@ -15,8 +15,9 @@
 			<entity name="categoryName" query="select id, name from t_category where id='${tItemIdCategory.category_id}'">
 				<field name="category_name" column="name"/>
 			</entity>
-			<entity name="itemName" query="select id, name from t_item where id='${tItemIdCategory.item_id}'">
+			<entity name="itemName" query="select id, name, price from t_item where id='${tItemIdCategory.item_id}'">
 				<field name="item_name" column="name"/>
+				<field name="item_price" column="price"/>
 			</entity>
 		</entity>
     </document>
